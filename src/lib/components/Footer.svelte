@@ -1,5 +1,5 @@
 <script>
-    import ABOUT from '$lib/const/about';
+    import {ABOUT} from '$lib/const/about';
 </script>
 
 <footer class="footer-area">

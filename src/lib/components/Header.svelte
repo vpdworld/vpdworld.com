@@ -1,3 +1,6 @@
+<script>
+    import MENU from '$lib/const/menu'
+</script>
 <header class="main-header"> 
     <div class="header-upper">
         <div class="container-box clearfix">
@@ -13,34 +16,10 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown current"><a href="#">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Page 01</a></li>
-                                            <li><a href="index-2.html">Home Page 02</a></li>
-                                            <li class="dropdown"><a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style One</a></li>
-                                                    <li><a href="index-2.html">Header Style Two</a></li>
-                                                </ul>    
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li class="dropdown"><a href="#">Our Yachts</a>
-                                        <ul>
-                                            <li><a href="yachts.html">Our Yachts</a></li>
-                                            <li><a href="yachts-details.html">Yachts Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="destinations.html">Destinations</a></li>
-                                    <li class="dropdown"><a href="#">News</a>
-                                        <ul>
-                                            <li><a href="blog.html">Latest News</a></li>
-                                            <li><a href="blog-single.html">News Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    {#each MENU as menu}
+                                         <!-- content here -->
+                                         <li><a href={menu.path}>{menu.name}</a></li>
+                                    {/each}
                                 </ul>
                             </div>
                         </nav>                        
