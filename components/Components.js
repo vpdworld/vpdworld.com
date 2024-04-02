@@ -87,7 +87,7 @@ const Header = `
                                     </form>-->
                                     <div style="display: flex; height:40px;">
                                     <span style="margin-top:5px">Dolar: </span>
-                                    <iframe style="margin-top: 9px;margin-left: 12px;" width="100" height="20" src="https://dolar.wilkinsonpc.com.co/widgets/gratis/dolar-cop-usd-5.html" frameborder="0"></iframe>
+                                    <iframe scrolling="no" style="margin-top: 9px;margin-left: 12px;" width="100" height="20" src="https://dolar.wilkinsonpc.com.co/widgets/gratis/dolar-cop-usd-5.html" frameborder="0"></iframe>
                                 </div>
                                 </div>
                             </div>
