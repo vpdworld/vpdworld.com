@@ -76,7 +76,7 @@ const Header = `
                         <div class="header-lawer-right-style2 clearfix float-right">
                             <div class="language-switcher">
                                 <div id="polyglotLanguageSwitcher">
-                                    <form action="#">
+                                <!--<form action="#">
                                         <select id="polyglot-language-options">
                                             <option id="en" value="en" selected>English</option>
                                             <option id="fr" value="fr">French</option>
@@ -84,7 +84,11 @@ const Header = `
                                             <option id="it" value="it">Italian</option>
                                             <option id="es" value="es">Spanish</option>
                                         </select>
-                                    </form>
+                                    </form>-->
+                                    <div style="display: flex; height:40px;">
+                                    <span style="margin-top:5px">Dolar: </span>
+                                    <iframe style="margin-top: 9px;margin-left: 12px;" width="100" height="20" src="https://dolar.wilkinsonpc.com.co/widgets/gratis/dolar-cop-usd-5.html" frameborder="0"></iframe>
+                                </div>
                                 </div>
                             </div>
                         </div>
