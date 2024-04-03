@@ -1,6 +1,6 @@
 const RRSS = [
     { name: 'facebook', url: 'https://www.facebook.com/profile.php?id=61555561957977' },
-    { name: 'instagram', url: 'https://www.instagram.com/vdpworld.sas/' },
+    { name: 'instagram', url: 'https://www.instagram.com/vdpworldsas' },
     { name: 'whatsapp', url: 'https://api.whatsapp.com/send?phone=573216385874' },
 ]
 
