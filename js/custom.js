@@ -877,7 +877,7 @@ if($("#contact-form").length){
           var form_btn = $(form).find('button[type="submit"]');
           var form_result_div = '#form-result';
           $(form_result_div).remove();
-          form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+          form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;">Mensaje enviado correctamente</div>');
           var form_btn_old_msg = form_btn.html();
           form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
           $(form).ajaxSubmit({

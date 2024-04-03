@@ -7,7 +7,7 @@ const RRSS = [
 const ABOUT = {
     APP_NAME: 'VDP World',
     DOMAIN: 'https://vdpworld.com/',
-    EMAIL: ['angela.torres@vdpworld.com', 'vicky.daza@vdpworld.com', 'logisticadministrativa@vdpworld.com', 'recepcionfac@vdpworld.com'],
+    EMAIL: ['vicky.daza@vdpworld.com', 'angela.torres@vdpworld.com', 'logisticadministrativa@vdpworld.com', 'recepcionfac@vdpworld.com'],
     PHONE: ['3178532719', '3216385974', '3158641071', '6015486314'],
     ADDRESS: 'CALLE 75 # 70D - 21',
     SCHEDULE: '8:00 AM A 5:30 PM L-S / SÁBADO 8:00 AM A 11:00 AM'
@@ -76,7 +76,7 @@ const Header = `
                         <div class="header-lawer-right-style2 clearfix float-right">
                             <div class="language-switcher">
                                 <div id="polyglotLanguageSwitcher">
-                                    <form action="#">
+                                <!--<form action="#">
                                         <select id="polyglot-language-options">
                                             <option id="en" value="en" selected>English</option>
                                             <option id="fr" value="fr">French</option>
@@ -84,7 +84,11 @@ const Header = `
                                             <option id="it" value="it">Italian</option>
                                             <option id="es" value="es">Spanish</option>
                                         </select>
-                                    </form>
+                                    </form>-->
+                                    <div style="display: flex; height:40px;">
+                                    <span style="margin-top:5px">Dolar: </span>
+                                    <iframe scrolling="no" style="margin-top: 9px;margin-left: 12px;" width="100" height="20" src="https://dolar.wilkinsonpc.com.co/widgets/gratis/dolar-cop-usd-5.html" frameborder="0"></iframe>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +148,7 @@ const Footer = `<footer class="footer-area style2">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
                 <div class="single-footer-widget box1">
                     <div class="title">
-                        <h3>About</h3>
+                        <h3>Sobre nosotros</h3>
                     </div>
                     <div class="our-company-info">
                         <div class="text">
@@ -187,7 +191,7 @@ const Footer = `<footer class="footer-area style2">
                                     alt="Awesome Logo" title="Logo"></a>
                         </div>
                         <p>CALLE 75 # 70D - 21</p>
-                        <a href="mailto:logisticadministrativa@vdpworld.com">logisticadministrativa@vdpworld.com</a><br>
+                        <a href="mailto:vicky.daza@vdpworld.com">vicky.daza@vdpworld.com</a><br>
                         <a href="tel:3178532719">317 853 2719</a>
                         <div class="footer-social-links">
                             <ul class="social-links-style1">
