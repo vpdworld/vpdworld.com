@@ -1,7 +1,7 @@
 const RRSS = [
     { name: 'facebook', url: 'https://www.facebook.com/profile.php?id=61555561957977' },
-    { name: 'instagram', url: 'https://www.instagram.com/vdpworld.sas/' },
-    { name: 'whatsapp', url: 'https://api.whatsapp.com/send?phone=573216385874' },
+    { name: 'instagram', url: 'https://www.instagram.com/vdpworldsas/' },
+    { name: 'whatsapp', url: 'https://api.whatsapp.com/send?phone=573178532719' },
 ]
 
 const ABOUT = {
@@ -201,12 +201,12 @@ const Footer = `<footer class="footer-area style2">
                                             class="fa fa-facebook" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://www.instagram.com/vdpworld.sas/"><i
+                                    <a target="_blank" href="https://www.instagram.com/vdpworldsas/"><i
                                             class="fa fa-instagram" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
                                     <a target="_blank"
-                                        href="https://api.whatsapp.com/send?phone=573216385874"><i
+                                        href="https://api.whatsapp.com/send?phone=573178532719"><i
                                             class="fa fa-whatsapp" aria-hidden="true"></i></a>
                                 </li>
 
