@@ -8,7 +8,7 @@ const ABOUT = {
     APP_NAME: 'VDP World',
     DOMAIN: 'https://vdpworld.com/',
     EMAIL: ['vicky.daza@vdpworld.com', 'angela.torres@vdpworld.com', 'logisticadministrativa@vdpworld.com', 'recepcionfac@vdpworld.com'],
-    PHONE: ['3178532719', '3216385974', '3158641071', '6015486314'],
+    PHONE: ['3178532719', '3216385974', '3158641071', '6015486314', '3216385874','601- 9425576'],
     ADDRESS: 'CALLE 75 # 70D - 21',
     SCHEDULE: '8:00 AM A 5:30 PM L-S / SÁBADO 8:00 AM A 11:00 AM'
 }
@@ -48,6 +48,7 @@ const Header = `
                                 <div class="title">
                                     <h6>¡Llamanos ahora!</h6>
                                     <a href="tel:${ABOUT.PHONE[0]}">${ABOUT.PHONE[0]}</a>
+                                    <a href="tel:${ABOUT.PHONE[4]}">${ABOUT.PHONE[4]}</a>
                                 </div>
                             </div>
                         </div>
@@ -164,21 +165,20 @@ const Footer = `<footer class="footer-area style2">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
                 <div class="single-footer-widget">
                     <div class="title">
-                        <h3>Páginas</h3>
+                        <h3>Contacto</h3>
                     </div>
                     <div class="explore-box">
                         <div class="row">
                             <div class="col-xl-6">
                                 <ul class="explore-links">
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="services.html">Servicios</a></li>
-                                    <li><a href="about.html">Nosotros</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="tel:${ABOUT.PHONE[0]}">${ABOUT.PHONE[0]}</a>
+                                    </li>
+                                    <li><a href="tel:${ABOUT.PHONE[4]}">${ABOUT.PHONE[4]}</a></li>
+                                    <li><a href="tel:${ABOUT.PHONE[5]}">${ABOUT.PHONE[5]}</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <!--End single footer widget-->
